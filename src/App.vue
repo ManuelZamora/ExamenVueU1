@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1 class="font-serif text-6xl">Simon Says</h1>
+  <Principal></Principal>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Principal from './components/Principal.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Principal
   }
 }
 </script>
@@ -22,5 +22,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+h1{
+  font-family: Avenir, Arial, Helvetica, sans-serif;
+  font-style: oblique;
+
 }
 </style>
